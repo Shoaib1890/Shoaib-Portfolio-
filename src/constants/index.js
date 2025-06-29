@@ -1,5 +1,9 @@
-
 import {
+  python,
+  streamlit,
+  typescript,
+  nextjs,
+  cplus,
   logo,
   backend,
   creator,
@@ -16,7 +20,6 @@ import {
   express,
   aws,
   mui,
-  
   gsap,
   framer,
   figma,
@@ -32,30 +35,13 @@ import {
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
-} from '../assets'
-
+} from "../assets";
 
 // Import Tekisky separately
-import tekisky from "../assets/company/tekisky.png";
+import tekisky from "../assets/company/SwitchiT-logo.jpg";
 
 
-export const navLinks = [
 
-
-  {
-    id: "about",
-    title: "About",
-    
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
-];
 
 const services = [
   {
@@ -78,6 +64,14 @@ const services = [
 
 const technologies = [
   {
+    name: "C++",
+    icon: cplus,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -93,36 +87,22 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "gsap",
-    icon: gsap,
-  },
-  {
-    name: "framer",
-    icon: framer,
-  },
 
- 
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+
   {
     name: "Redux Toolkit",
     icon: redux,
   },
   {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Material Ui",
-    icon: mui,
-  },
+  
+
   {
     name: "Node JS",
     icon: nodejs,
@@ -132,10 +112,6 @@ const technologies = [
     icon: express,
   },
   {
-    name: "AWS",
-    icon: aws,
-  },
-  {
     name: "MongoDB",
     icon: mongodb,
   },
@@ -143,24 +119,71 @@ const technologies = [
     name: "MySql",
     icon: mysql,
   },
+  {
+    name: "Next.js",
+    icon: nextjs,
+  },
 
   {
     name: "git",
     icon: git,
   },
- 
-
+  
+  
+  
+  {
+    name: "Streamlit",
+    icon: streamlit,
+  },
+  
 ];
+
+export const programmingLanguages = [
+  { name: "C++", icon: cplus },
+  { name: "Python", icon: python },
+  { name: "JavaScript", icon: javascript },
+  { name: "TypeScript", icon: typescript },
+];
+
+export const webDevSkills = [
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },  
+  { name: "React JS", icon: reactjs },
+  { name: "Redux", icon: redux },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "Node JS", icon: nodejs },
+  { name: "Express JS", icon: express },
+  { name: "Next.js", icon: nextjs },
+];
+
+export const databaseSkills = [
+  { name: "MongoDB", icon: mongodb },
+  { name: "MySQL", icon: mysql },
+];
+
+export const tools = [
+  { name: "Git", icon: git },
+];
+
+export const otherSkills = [
+  "Responsive Web Design",
+  "Data Structure and Algorithms",
+  "Competitive Programming",
+  "Object Oriented Programming",
+  "DBMS",
+  "Operating System",
+];
+
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
+    title: "SDE Intern",
+    company_name: "SwitchiT",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "May 2025 - present",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
+      "Built and maintained web apps using MERN stack, focusing on React and Next.jsm",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -197,76 +220,42 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "SwitchiT",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "A recruiter hiring platform with dynamic UI components like candidate cards, filters, and modals. Built for seamless navigation and efficient recruitment workflows.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
- 
+      { name: "next.js", color: "blue-text-gradient" },
+      { name: "typescript", color: "white-text-gradient" },
+      { name: "tailwind", color: "green-text-gradient" },
+      { name: "redux", color: "pink-text-gradient" },
     ],
     image: project2,
-    source_code_link: "https://github.com/",
+    source_code_link: null,
   },
   {
-    name: "GearXpert",
+    name: "Campus Portal",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "A smart campus issue resolution platform using ML to classify complaints and suggest the correct point of contact with estimated resolution times.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "emailJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Gsap",
-        color: "pink-text-gradient",
-      },
+      { name: "python", color: "blue-text-gradient" },
+      { name: "streamlit", color: "green-text-gradient" },
+      { name: "ML", color: "pink-text-gradient" },
+      { name: "pandas", color: "white-text-gradient" },
     ],
     image: gearXpert,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Shoaib1890/Campus-Resolution-Portal.git",
   },
   {
-    name: "GoGroove-Ecommerce",
-    description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-    ],
+  name: "TaskMate - ToDo App",
+  description:
+    "A simple and elegant ToDo app to manage daily tasks with features like add, delete, and mark-as-done. Designed for productivity with a clean, responsive interface.",
+  tags: [
+    { name: "react", color: "blue-text-gradient" },
+    { name: "css", color: "pink-text-gradient" },
+    { name: "javascript", color: "white-text-gradient" },
+  ],
     image: project3,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Shoaib1890/Todo-List1.git",
   },
 ];
 

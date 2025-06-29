@@ -4,6 +4,13 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import cplus from "./tech/cplus.svg";
+import nextjs from "./tech/nextjs.svg";
+import python from "./tech/Python.svg";
+import streamlit from "./tech/streamlit.png";
+
+
+import typescript from "./tech/Typescript.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import gsap from './tech/gsap.png'
@@ -11,8 +18,8 @@ import framer from './tech/framer.png';
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
 import gearXpert from './gearXpert.png';
-import project3 from './project3.webp';
-import project2 from './proj1.webp'
+import project3 from './Todo.png';
+import project2 from './swithiT.png'
 import mysql from './tech/mysql.png';
 import express from './tech/express.png';
 import aws from './tech/aws.png';
@@ -28,10 +35,16 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import firstTestimonial from './Tars Ken.webp';
 import secondTestimonial from './image.webp';
-import thirdTestimonial from './third testimonial.webp'
+import thirdTestimonial from './third testimonial.webp';
+
 
 export {
   logo,
+  cplus,
+  python,
+  nextjs,
+  streamlit,
+  typescript,
   backend,
   creator,
   mobile,
@@ -62,5 +75,4 @@ export {
   redux,
   tailwind,
   threejs,
-
 };
