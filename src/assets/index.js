@@ -10,7 +10,7 @@ import python from "./tech/python.svg";
 import streamlit from "./tech/streamlit.png";
 
 
-import typescript from "./tech/Typescript.svg";
+import typescript from "./tech/typescript.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import gsap from './tech/gsap.png'
