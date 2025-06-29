@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import cplus from "./tech/cplus.svg";
 import nextjs from "./tech/nextjs.svg";
-import python from "./tech/Python.svg";
+import python from "./tech/python.svg";
 import streamlit from "./tech/streamlit.png";
 
 
