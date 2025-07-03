@@ -224,7 +224,7 @@ const Resume = () => {
                     Campus Complaint Resolution Portal
                   </p>
                   <span className="mt-2 inline-block bg-gray-700 text-sm px-2 py-1 rounded">
-                    Python · Streamlit · ML
+                    MACHINE LEARNING
                   </span>
                   <ul className="mt-2 list-disc list-outside pl-5 text-sm space-y-1">
                     <li>
@@ -248,18 +248,19 @@ const Resume = () => {
 
                 <div>
                   <p className="text-green-400 font-semibold">
-                    Currency Converter
+                    Smart Portfolio Insights
                   </p>
                   <span className="mt-2 inline-block bg-gray-700 text-sm px-2 py-1 rounded">
-                    HTML · CSS · JavaScript
+                    MERN STACK · WEB DEVELOPMENT
                   </span>
                   <ul className="mt-2 list-disc list-outside pl-5 text-sm space-y-1">
                     <li>
-                      Developed a real-time currency converter using Fetch API
-                      and open exchange rates.
+                      Built a MERN stack app to analyze real-time stock news
+                      with AI-powered sentiment.
                     </li>
                     <li>
-                      Focused on responsive UI and intuitive interaction design.
+                      Filtered news based on user portfolios using keyword
+                      mapping and web scraping.
                     </li>
                   </ul>
                 </div>
