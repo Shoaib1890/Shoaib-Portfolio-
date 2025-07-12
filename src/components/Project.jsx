@@ -24,6 +24,13 @@ const projects = [
     githubLink: "https://github.com/Shoaib1890/alpha-stock-whisperer-india.git",
   },
   {
+    title: "Campus Connect",
+    techStack: "UI/UX | WEB DEVELOPMENT",
+    imageUrl: "/campusconnect.png",
+    liveLink: "https://campus-hub-refined.vercel.app/",
+    githubLink: "https://github.com/Shoaib1890/campus-hub-refined.git",
+  },
+  {
     title: "Todo App",
     techStack: "REACT | WEB DEVELOPMENT",
     imageUrl: "/TodoApp.png",
@@ -51,6 +58,7 @@ const projects = [
     liveLink: "https://tic-tac-toe-kohl-omega-36.vercel.app/",
     githubLink: "https://github.com/Shoaib1890/Tic-Tac-Toe.git",
   },
+  
 ];
 
 const ProjectCard = ({ project }) => (
