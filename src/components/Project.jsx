@@ -45,6 +45,13 @@ const projects = [
     githubLink: "https://github.com/Shoaib1890/Currency-Convertor.git",
   },
   {
+    title: "Notes Web App",
+    techStack: "MERN STACK | WEB DEVELOPMENT",
+    imageUrl: "/Notes_web_app.png",
+    liveLink: "https://notes-web-app-5fl5.onrender.com",
+    githubLink: "https://github.com/Shoaib1890/Notes_web_app.git",
+  },
+  {
     title: "Amazon Clone",
     techStack: "JAVASCRIPT | WEB DEVELOPMENT",
     imageUrl: "/Amazon.png",
