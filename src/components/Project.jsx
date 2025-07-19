@@ -1,4 +1,5 @@
 import React from "react";
+import { SectionWrapper } from "../hoc";
 
 const projects = [
   {
@@ -7,13 +8,14 @@ const projects = [
     imageUrl: "/swithiT.png",
     liveLink: null,
     githubLink: null,
-    note: "Confidential company project – links not shared."
+    note: "Confidential company project – links not shared.",
   },
   {
     title: "Campus Resolution Portal",
     techStack: "MACHINE LEARNING",
     imageUrl: "/Campus_Portal.png",
-    liveLink: "https://campus-resolution-app-vmrpq3jasndrr3qztfh2fs.streamlit.app/",
+    liveLink:
+      "https://campus-resolution-app-vmrpq3jasndrr3qztfh2fs.streamlit.app/",
     githubLink: "https://github.com/Shoaib1890/Campus-Resolution-Portal.git",
   },
   {
@@ -29,6 +31,17 @@ const projects = [
     imageUrl: "/campusconnect.png",
     liveLink: "https://campus-hub-refined.vercel.app/",
     githubLink: "https://github.com/Shoaib1890/campus-hub-refined.git",
+    award: "🏆 Winner – UI/UX Hackathon (IIITDM, 24hr Sprint)"
+
+  },
+  {
+    title: "Mess Crowd Analysis & Prediction",
+    techStack: "PYTHON | DATA ANALYTICS",
+    imageUrl: "/Mess_crowd_predictor.png",
+    liveLink:
+      "https://colab.research.google.com/drive/110h6zZprBdHq0jxZZpZUOXtTm8oLzZy-?usp=sharing", // <-- use your copied link
+    githubLink: "https://github.com/Shoaib1890/Mess-crowd-analysis-hackathon",
+    award: "🥈 Runner-up – Data Analysis Hackathon (Among IIITs)"
   },
   {
     title: "Todo App",
@@ -39,7 +52,7 @@ const projects = [
   },
   {
     title: "Currency Convertor",
-    techStack: "JAVASCRIPT | WEB DEVELOPMENT", 
+    techStack: "JAVASCRIPT | WEB DEVELOPMENT",
     imageUrl: "/CurrencyConvertor.png",
     liveLink: "https://currency-convertor-tan-kappa.vercel.app/",
     githubLink: "https://github.com/Shoaib1890/Currency-Convertor.git",
@@ -65,7 +78,6 @@ const projects = [
     liveLink: "https://tic-tac-toe-kohl-omega-36.vercel.app/",
     githubLink: "https://github.com/Shoaib1890/Tic-Tac-Toe.git",
   },
-  
 ];
 
 const ProjectCard = ({ project }) => (
@@ -89,14 +101,29 @@ const ProjectCard = ({ project }) => (
     <div className="absolute inset-0 z-10 bg-black/60 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col justify-center items-center text-white text-center px-4">
       <h3 className="text-xl font-bold">{project.title}</h3>
       <p className="text-sm mb-2">{project.techStack}</p>
+      {project.award && (
+        <p className="text-xs text-green-300 font-medium mt-1 mb-2">
+          {project.award}
+        </p>
+      )}
       <div className="flex space-x-4">
         {project.liveLink && (
-          <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="hover:underline">
+          <a
+            href={project.liveLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
             🔗 Live
           </a>
         )}
         {project.githubLink && (
-          <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="hover:underline">
+          <a
+            href={project.githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
             💻 Code
           </a>
         )}
@@ -105,14 +132,13 @@ const ProjectCard = ({ project }) => (
   </div>
 );
 
-
-
-
 const ProjectSection = () => {
   return (
-    <section className="py-24 px-4 text-white bg-black" id="projects">
-      <div className="max-w-6xl mx-auto text-center">
-        <p className="text-sm tracking-widest text-green-400 uppercase mb-2">Projects</p>
+    <div className="w-full text-white py-24 px-4">
+      <div className="max-w-7xl mx-auto text-center">
+        <p className="text-sm tracking-widest text-green-400 uppercase mb-2">
+          Projects
+        </p>
         <h2 className="text-4xl md:text-5xl font-extrabold mb-10">MY WORKS</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -121,8 +147,8 @@ const ProjectSection = () => {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
-export default ProjectSection;
+export default SectionWrapper(ProjectSection, "projects");
