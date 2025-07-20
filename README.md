@@ -91,6 +91,8 @@ Shoaib-Portfolio/
 
 Created by **Shoaib**. Special thanks to the open-source community and all contributors of the libraries used in this project.
 
----
+------
 
-> **Note:** This portfolio is for personal use only and is not intended for reuse or redistribution. 
+> ⚠️ **Personal Project Disclaimer**  
+> This portfolio was crafted by **Mohammed Shoaib** as a personal showcase.  
+> Please **do not copy, clone, or redistribute** any part of the code or design without asking for permission.
