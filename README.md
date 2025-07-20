@@ -93,6 +93,4 @@ Created by **Shoaib**. Special thanks to the open-source community and all contr
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License. 
+> **Note:** This portfolio is for personal use only and is not intended for reuse or redistribution. 
