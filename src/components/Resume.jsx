@@ -267,6 +267,92 @@ const Resume = () => {
               </div>
             </div>
           </div>
+
+          {/* Hackathons & Competitions */}
+          <div>
+            <h3 className="text-xl font-bold mb-3">
+              Hackathons & Competitions
+            </h3>
+            <div className="space-y-8">
+              {/* UI/UX Hackathon */}
+              <div className="relative pl-6">
+                <span className="absolute left-0 top-1 w-3 h-3 bg-green-500 rounded-full z-10"></span>
+                <div className="absolute left-[5px] top-5 bottom-0 w-0.5 bg-gray-600"></div>
+                <div>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <p className="text-green-400 font-semibold text-lg">
+                      Inter IIIT UI/UX Hackathon
+                    </p>
+                    <span className="bg-gray-700 text-xs px-2 py-0.5 rounded">
+                      Winner
+                    </span>
+                    <span className="text-gray-400 text-xs">July 2025</span>
+                  </div>
+                  <a
+                    href="https://campus-hub-refined.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center mt-2 text-white font-medium hover:text-green-400 transition-colors duration-200"
+                  >
+                    View Project
+                    <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M17 7l-10 10M17 17V7H7" />
+                    </svg>
+                  </a>
+                  <ul className="mt-2 list-disc list-outside pl-5 text-sm space-y-1">
+                    <li>
+                      Designed a unified dashboard for campus events, clubs, and posts.
+                    </li>
+                    <li>
+                      Created responsive UI with role-based access for students and admins.
+                    </li>
+                    <li>
+                      Used modern UI/UX principles for clean and intuitive navigation.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Data Analytics Hackathon */}
+              <div className="relative pl-6">
+                <span className="absolute left-0 top-1 w-3 h-3 bg-green-500 rounded-full z-10"></span>
+                <div className="absolute left-[5px] top-5 bottom-0 w-0.5 bg-gray-600"></div>
+                <div>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <p className="text-green-400 font-semibold text-lg">
+                      Data Analytics Hackathon
+                    </p>
+                    <span className="bg-gray-700 text-xs px-2 py-0.5 rounded">
+                      Runner-up
+                    </span>
+                    <span className="text-gray-400 text-xs">July 2025</span>
+                  </div>
+                  <a
+                    href="https://colab.research.google.com/drive/110h6zZprBdHq0jxZZpZUOXtTm8oLzZy-?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center mt-2 text-white font-medium hover:text-green-400 transition-colors duration-200"
+                  >
+                    View Report
+                    <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M17 7l-10 10M17 17V7H7" />
+                    </svg>
+                  </a>
+                  <ul className="mt-2 list-disc list-outside pl-5 text-sm space-y-1">
+                    <li>
+                      Analyzed student feedback using Python, Pandas, and Matplotlib.
+                    </li>
+                    <li>
+                      Performed sentiment analysis and visualized key metrics.
+                    </li>
+                    <li>
+                      Suggested improvements based on actionable data insights.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -10,6 +10,7 @@ import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Resume from "./Resume";
 import Project from "./Project"
+import Certificates from './Certificates';
 
 
 export {
@@ -27,4 +28,5 @@ export {
   StarsCanvas,
   Resume,
   Project ,
+  Certificates
 };

@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Recruiter Tool",
     techStack: "MERN STACK | WEB DEVELOPMENT",
-    imageUrl: "/swithiT.png",
+    imageUrl: "/Project_Images/swithiT.png",
     liveLink: null,
     githubLink: null,
     note: "Confidential company project – links not shared.",
@@ -13,7 +13,7 @@ const projects = [
   {
     title: "Campus Resolution Portal",
     techStack: "MACHINE LEARNING",
-    imageUrl: "/Campus_Portal.png",
+    imageUrl: "/Project_Images/Campus_Portal.png",
     liveLink:
       "https://campus-resolution-app-vmrpq3jasndrr3qztfh2fs.streamlit.app/",
     githubLink: "https://github.com/Shoaib1890/Campus-Resolution-Portal.git",
@@ -21,14 +21,14 @@ const projects = [
   {
     title: "Smart Portfolio Insights",
     techStack: "MERN STACK | WEB DEVELOPMENT",
-    imageUrl: "/SmartPortfolio.png",
+    imageUrl: "/Project_Images/SmartPortfolio.png",
     liveLink: "https://alpha-stock-whisperer-india.vercel.app/",
     githubLink: "https://github.com/Shoaib1890/alpha-stock-whisperer-india.git",
   },
   {
     title: "Campus Connect",
     techStack: "UI/UX | WEB DEVELOPMENT",
-    imageUrl: "/campusconnect.png",
+    imageUrl: "/Project_Images/campusconnect.png",
     liveLink: "https://campus-hub-refined.vercel.app/",
     githubLink: "https://github.com/Shoaib1890/campus-hub-refined.git",
     award: "🏆 Winner – UI/UX Hackathon (IIITDM, 24hr Sprint)"
@@ -37,7 +37,7 @@ const projects = [
   {
     title: "Mess Crowd Analysis & Prediction",
     techStack: "PYTHON | DATA ANALYTICS",
-    imageUrl: "/Mess_crowd_predictor.png",
+    imageUrl: "/Project_Images/Mess_crowd_predictor.png",
     liveLink:
       "https://colab.research.google.com/drive/110h6zZprBdHq0jxZZpZUOXtTm8oLzZy-?usp=sharing", // <-- use your copied link
     githubLink: "https://github.com/Shoaib1890/Mess-crowd-analysis-hackathon",
@@ -46,35 +46,35 @@ const projects = [
   {
     title: "Todo App",
     techStack: "REACT | WEB DEVELOPMENT",
-    imageUrl: "/TodoApp.png",
+    imageUrl: "/Project_Images/TodoApp.png",
     liveLink: "https://todo-list1-roan.vercel.app/",
     githubLink: "https://github.com/Shoaib1890/Todo-List1.git",
   },
   {
     title: "Currency Convertor",
     techStack: "JAVASCRIPT | WEB DEVELOPMENT",
-    imageUrl: "/CurrencyConvertor.png",
+    imageUrl: "/Project_Images/CurrencyConvertor.png",
     liveLink: "https://currency-convertor-tan-kappa.vercel.app/",
     githubLink: "https://github.com/Shoaib1890/Currency-Convertor.git",
   },
   {
     title: "Notes Web App",
     techStack: "MERN STACK | WEB DEVELOPMENT",
-    imageUrl: "/Notes_web_app.png",
+    imageUrl: "/Project_Images/Notes_web_app.png",
     liveLink: "https://notes-web-app-5fl5.onrender.com",
     githubLink: "https://github.com/Shoaib1890/Notes_web_app.git",
   },
   {
     title: "Amazon Clone",
     techStack: "JAVASCRIPT | WEB DEVELOPMENT",
-    imageUrl: "/Amazon.png",
+    imageUrl: "/Project_Images/Amazon.png",
     liveLink: "https://clone-amazon-in-gg1o.vercel.app/",
     githubLink: "https://github.com/Shoaib1890/Clone-Amazon.in.git",
   },
   {
     title: "Tic Tac Toe",
     techStack: "JAVASCRIPT | WEB DEVELOPMENT",
-    imageUrl: "/TicTacToe.png",
+    imageUrl: "/Project_Images/TicTacToe.png",
     liveLink: "https://tic-tac-toe-kohl-omega-36.vercel.app/",
     githubLink: "https://github.com/Shoaib1890/Tic-Tac-Toe.git",
   },

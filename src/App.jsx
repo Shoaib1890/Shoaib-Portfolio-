@@ -10,6 +10,7 @@ import {
   StarsCanvas,
   Resume,
   Project,
+  Certificates,
 } from "./components";
 import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -42,7 +43,14 @@ const App = () => {
               </div>
             }
           />
-
+          <Route
+            path="/certificates"
+            element={
+              <div className="bg-primary min-h-screen">
+                <Certificates />
+              </div>
+            }
+          />
           <Route
             path="/contact"
             element={
