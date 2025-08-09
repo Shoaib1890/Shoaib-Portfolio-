@@ -44,6 +44,13 @@ const projects = [
     award: "🥈 Runner-up – Data Analysis Hackathon (Among IIITs)"
   },
   {
+    title: "Job Application Tracker",
+    techStack: "REACT | WEB DEVELOPMENT",
+    imageUrl: "/Project_Images/jobapplication.png",
+    liveLink: "https://job-application-tracker-three-lake.vercel.app/",
+    githubLink: "https://github.com/Shoaib1890/genesis-makers-space.git",
+  },
+  {
     title: "Todo App",
     techStack: "REACT | WEB DEVELOPMENT",
     imageUrl: "/Project_Images/TodoApp.png",
