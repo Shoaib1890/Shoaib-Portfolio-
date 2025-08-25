@@ -155,112 +155,115 @@ const Resume = () => {
           {/* Professional Experience */}
           <div>
             <h3 className="text-xl font-bold mb-3">Professional Experience</h3>
-            <div className="relative pl-6">
-              {/* Green dot */}
-              <span className="absolute left-0 top-1 w-3 h-3 bg-green-500 rounded-full z-10"></span>
-
-              {/* Gray vertical line */}
-              <div className="absolute left-[5px] top-5 bottom-0 w-0.5 bg-gray-600"></div>
-
-              {/* Content */}
-              <div>
-                <p className="text-green-400 font-semibold">
-                  SDE INTERN AT SwitchiT
-                </p>
-                <span className="inline-block bg-gray-700 text-sm mt-2 px-2 py-1">
-                  May 2025 - Present
-                </span>
-                <p className="italic mt-1">Bangalore, Karnataka, India</p>
-
-                <ul className="list-disc list-outside pl-5 text-sm mt-4 space-y-2">
-                  <li>
-                    <span className="block">
-                      Built the complete frontend of a recruiter hiring platform
-                      using Next.js, TypeScript, and Tailwind CSS.
-                    </span>
-                  </li>
-                  <li>
-                    <span className="block">
-                      Designed responsive UI components including candidate
-                      cards, job listings, filters, and modals.
-                    </span>
-                  </li>
-                  <li>
-                    <span className="block">
-                      Integrated APIs and managed async state using Redux
-                      Toolkit Query for smooth user interactions.
-                    </span>
-                  </li>
-                  <li>
-                    <span className="block">
-                      Ensured mobile responsiveness and cross-browser
-                      compatibility across the platform.
-                    </span>
-                  </li>
-                  <li>
-                    <span className="block">
-                      Collaborated with backend and design teams to align
-                      features with user experience goals.
-                    </span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* projects section */}
-          <div>
-            <h3 className="text-xl font-bold mb-3">Projects</h3>
             <div className="space-y-8">
-              {/* Project 1: Campus Complaint Resolution Portal */}
+              {/* SDE Intern at SwitchiT */}
               <div className="relative pl-6">
-                {/* Green dot */}
                 <span className="absolute left-0 top-1 w-3 h-3 bg-green-500 rounded-full z-10"></span>
-                {/* Gray vertical line */}
                 <div className="absolute left-[5px] top-5 bottom-0 w-0.5 bg-gray-600"></div>
 
                 <div>
                   <p className="text-green-400 font-semibold">
-                    Campus Complaint Resolution Portal
+                    SDE INTERN AT SwitchiT
                   </p>
-                  <span className="mt-2 inline-block bg-gray-700 text-sm px-2 py-1 rounded">
-                    MACHINE LEARNING
+                  <span className="inline-block bg-gray-700 text-sm mt-2 px-2 py-1">
+                    May 2025 - Present
                   </span>
-                  <ul className="mt-2 list-disc list-outside pl-5 text-sm space-y-1">
+                  <p className="italic mt-1">Bangalore, Karnataka, India</p>
+
+                  <ul className="list-disc list-outside pl-5 text-sm mt-4 space-y-2">
                     <li>
-                      Built a tool to guide students to the right campus contact
-                      using NLP-based classification.
+                      <span className="block">
+                        Built the complete frontend of a recruiter hiring
+                        platform using Next.js, TypeScript, and Tailwind CSS.
+                      </span>
                     </li>
                     <li>
-                      Used TF-IDF + KNN with Streamlit UI and Pandas for data
-                      handling and display.
+                      <span className="block">
+                        Designed responsive UI components including candidate
+                        cards, job listings, filters, and modals.
+                      </span>
+                    </li>
+                    <li>
+                      <span className="block">
+                        Integrated APIs and managed async state using Redux
+                        Toolkit Query for smooth user interactions.
+                      </span>
+                    </li>
+                    <li>
+                      <span className="block">
+                        Ensured mobile responsiveness and cross-browser
+                        compatibility across the platform.
+                      </span>
+                    </li>
+                    <li>
+                      <span className="block">
+                        Collaborated with backend and design teams to align
+                        features with user experience goals.
+                      </span>
                     </li>
                   </ul>
                 </div>
               </div>
 
-              {/* Project 2: Currency Converter */}
+              {/* Frontend Intern at ElevvoPathways */}
               <div className="relative pl-6">
-                {/* Green dot */}
                 <span className="absolute left-0 top-1 w-3 h-3 bg-green-500 rounded-full z-10"></span>
-                {/* Gray vertical line */}
                 <div className="absolute left-[5px] top-5 bottom-0 w-0.5 bg-gray-600"></div>
 
                 <div>
                   <p className="text-green-400 font-semibold">
-                    Smart Portfolio Insights
+                    Frontend INTERN AT ElevvoPathways
                   </p>
-                  <span className="mt-2 inline-block bg-gray-700 text-sm px-2 py-1 rounded">
-                    MERN STACK · WEB DEVELOPMENT
+                  <span className="inline-block bg-gray-700 text-sm mt-2 px-2 py-1">
+                    Aug 2025 - Sep 2025
                   </span>
-                  <ul className="mt-2 list-disc list-outside pl-5 text-sm space-y-1">
+                  <p className="italic mt-1">Remote - Cairo, Egypt</p>
+
+                  <ul className="list-disc list-outside pl-5 text-sm mt-4 space-y-2">
                     <li>
-                      Built a MERN stack app to analyze real-time stock news
-                      with AI-powered sentiment.
+                      <span className="block">
+                        Completed a structured internship program focused on
+                        React.js, TypeScript, CSS/Tailwind, and Framer Motion
+                      </span>
                     </li>
                     <li>
-                      Filtered news based on user portfolios using keyword
-                      mapping and web scraping.
+                      <span className="block">
+                        Developing responsive UI components with dark/light
+                        themes, animations, and accessibility features.
+                      </span>
+                    </li>
+                    <li>
+                      <span className="block">
+                        Working on practical, real-world tasks with personalized
+                        feedback to align with industry practices.
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* open source contribution */}
+              <div className="relative pl-6">
+                <span className="absolute left-0 top-1 w-3 h-3 bg-green-500 rounded-full z-10"></span>
+                <div className="absolute left-[5px] top-5 bottom-0 w-0.5 bg-gray-600"></div>
+
+                <div>
+                  <p className="text-green-400 font-semibold">
+                    Open Source Contributor
+                  </p>
+                  <span className="inline-block bg-gray-700 text-sm mt-2 px-2 py-1">
+                    Aug 2025 - Present
+                  </span>
+                  <p className="italic mt-1">Remote</p>
+
+                  <ul className="list-disc list-outside pl-5 text-sm mt-4 space-y-2">
+                    <li>
+                      <span className="block">
+                        Tech Contributor at GSSoC'25
+                      </span>
+                    </li>
+                    <li>
+                      <span className="block">Tech Contributor at OSCI'25</span>
                     </li>
                   </ul>
                 </div>
@@ -295,20 +298,30 @@ const Resume = () => {
                     className="inline-flex items-center mt-2 text-white font-medium hover:text-green-400 transition-colors duration-200"
                   >
                     View Project
-                    <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M17 7l-10 10M17 17V7H7" />
+                    <svg
+                      className="ml-2 w-4 h-4"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M17 7l-10 10M17 17V7H7"
+                      />
                     </svg>
                   </a>
                   <ul className="mt-2 list-disc list-outside pl-5 text-sm space-y-1">
                     <li>
-                      Designed a unified dashboard for campus events, clubs, and posts.
+                      Designed a unified dashboard for campus events, clubs, and
+                      posts.
                     </li>
                     <li>
-                      Created responsive UI with role-based access for students and admins.
+                      Created responsive UI with role-based access for students
+                      and admins.
                     </li>
-                    <li>
-                      Used modern UI/UX principles for clean and intuitive navigation.
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
@@ -334,13 +347,24 @@ const Resume = () => {
                     className="inline-flex items-center mt-2 text-white font-medium hover:text-green-400 transition-colors duration-200"
                   >
                     View Report
-                    <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M17 7l-10 10M17 17V7H7" />
+                    <svg
+                      className="ml-2 w-4 h-4"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M17 7l-10 10M17 17V7H7"
+                      />
                     </svg>
                   </a>
                   <ul className="mt-2 list-disc list-outside pl-5 text-sm space-y-1">
                     <li>
-                      Analyzed student feedback using Python, Pandas, and Matplotlib.
+                      Analyzed student feedback using Python, Pandas, and
+                      Matplotlib.
                     </li>
                     <li>
                       Performed sentiment analysis and visualized key metrics.

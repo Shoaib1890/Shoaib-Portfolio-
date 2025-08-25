@@ -31,23 +31,41 @@ const App = () => {
               </div>
             }
           />
-          <Route path="/about" element={<About />} />
+          <Route
+            path="/about"
+            element={
+              <div className="relative z-0">
+                <About />
+                <StarsCanvas />
+              </div>
+            }
+          />
           <Route path="/experience" element={<Experience />} />
           <Route path="/skills" element={<Tech />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route
+            path="/resume"
+            element={
+              <div className="relative z-0">
+                <Resume />
+                <StarsCanvas />
+              </div>
+            }
+          />
           <Route
             path="/projects"
             element={
-              <div className="bg-primary min-h-screen">
+              <div className="relative z-0 bg-primary min-h-screen">
                 <Project />
+                <StarsCanvas />
               </div>
             }
           />
           <Route
             path="/certificates"
             element={
-              <div className="bg-primary min-h-screen">
+              <div className="relative z-0 bg-primary min-h-screen">
                 <Certificates />
+                <StarsCanvas />
               </div>
             }
           />
