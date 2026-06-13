@@ -173,32 +173,42 @@ const Resume = () => {
                   <ul className="list-disc list-outside pl-5 text-sm mt-4 space-y-2">
                     <li>
                       <span className="block">
-                        Built the complete frontend of a recruiter hiring
-                        platform using Next.js, TypeScript, and Tailwind CSS.
+                        Developed and maintained the company’s primary web
+                        application using React.js, TypeScript, Next.js, and
+                        Tailwind CSS, delivering responsive, scalable, and
+                        user-friendly experiences.
                       </span>
                     </li>
                     <li>
                       <span className="block">
-                        Designed responsive UI components including candidate
-                        cards, job listings, filters, and modals.
+                        Built and enhanced a recruiter platform that enables
+                        recruiters to search, evaluate, and manage candidates
+                        efficiently through advanced filtering, onboarding
+                        workflows, and candidate management features.
                       </span>
                     </li>
                     <li>
                       <span className="block">
-                        Integrated APIs and managed async state using Redux
-                        Toolkit Query for smooth user interactions.
+                        Collaborated with backend engineers to integrate REST
+                        APIs, optimize data flow, and improve application
+                        performance across multiple products.
                       </span>
                     </li>
                     <li>
                       <span className="block">
-                        Ensured mobile responsiveness and cross-browser
-                        compatibility across the platform.
+                        Upgraded an existing news microservice into an
+                        AI-focused content aggregation platform by replacing
+                        generic RSS sources with 30+ AI-specific feeds from
+                        OpenAI, NVIDIA, DeepMind, MIT, VentureBeat, and Hugging
+                        Face.
                       </span>
                     </li>
                     <li>
                       <span className="block">
-                        Collaborated with backend and design teams to align
-                        features with user experience goals.
+                        Designed and implemented a keyword-based relevance
+                        scoring and filtering system that automatically removed
+                        non-AI content before database ingestion, significantly
+                        improving the quality and relevance of curated news.
                       </span>
                     </li>
                   </ul>
@@ -206,7 +216,7 @@ const Resume = () => {
               </div>
 
               {/* Frontend Intern at ElevvoPathways */}
-              <div className="relative pl-6">
+              {/* <div className="relative pl-6">
                 <span className="absolute left-0 top-1 w-3 h-3 bg-green-500 rounded-full z-10"></span>
                 <div className="absolute left-[5px] top-5 bottom-0 w-0.5 bg-gray-600"></div>
 
@@ -240,7 +250,7 @@ const Resume = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
 
               {/* open source contribution */}
               <div className="relative pl-6">
@@ -321,7 +331,6 @@ const Resume = () => {
                       Created responsive UI with role-based access for students
                       and admins.
                     </li>
-                    
                   </ul>
                 </div>
               </div>

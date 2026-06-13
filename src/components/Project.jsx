@@ -11,6 +11,21 @@ const projects = [
     note: "Confidential company project – links not shared.",
   },
   {
+    title: "CodeMentor AI",
+    techStack: "FULL STACK | AI DEVELOPMENT",
+    imageUrl: "/Project_Images/CodeMentorAI.png",
+    liveLink: "https://code-mentor-ai-3db2.vercel.app/",
+    githubLink: "https://github.com/Shoaib1890/CodeMentor-AI",
+  },
+  
+  {
+    title: "Smart Portfolio Insights",
+    techStack: "MERN STACK | WEB DEVELOPMENT",
+    imageUrl: "/Project_Images/SmartPortfolio.png",
+    liveLink: "https://stockpulsefinal.vercel.app/",
+    githubLink: "https://github.com/Shoaib1890/alpha-stock-whisperer-india.git",
+  },
+  {
     title: "Campus Resolution Portal",
     techStack: "MACHINE LEARNING",
     imageUrl: "/Project_Images/Campus_Portal.png",
@@ -18,13 +33,7 @@ const projects = [
       "https://campus-resolution-app-vmrpq3jasndrr3qztfh2fs.streamlit.app/",
     githubLink: "https://github.com/Shoaib1890/Campus-Resolution-Portal.git",
   },
-  {
-    title: "Smart Portfolio Insights",
-    techStack: "MERN STACK | WEB DEVELOPMENT",
-    imageUrl: "/Project_Images/SmartPortfolio.png",
-    liveLink: "https://alpha-stock-whisperer-india.vercel.app/",
-    githubLink: "https://github.com/Shoaib1890/alpha-stock-whisperer-india.git",
-  },
+  
   {
     title: "Campus Connect",
     techStack: "UI/UX | WEB DEVELOPMENT",
