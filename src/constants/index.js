@@ -35,6 +35,7 @@ import {
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
+  postgresql,
 } from "../assets";
 
 // Import Tekisky separately
@@ -120,6 +121,10 @@ const technologies = [
     icon: mysql,
   },
   {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
     name: "Next.js",
     icon: nextjs,
   },
@@ -139,30 +144,31 @@ const technologies = [
 ];
 
 export const programmingLanguages = [
-  { name: "C++", icon: cplus },
-  { name: "Python", icon: python },
-  { name: "JavaScript", icon: javascript },
-  { name: "TypeScript", icon: typescript },
+  { name: "C++", icon: cplus, link: "https://isocpp.org/" },
+  { name: "Python", icon: python, link: "https://www.python.org/" },
+  { name: "JavaScript", icon: javascript, link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+  { name: "TypeScript", icon: typescript, link: "https://www.typescriptlang.org/" },
 ];
 
 export const webDevSkills = [
-  { name: "HTML 5", icon: html },
-  { name: "CSS 3", icon: css },  
-  { name: "React JS", icon: reactjs },
-  { name: "Redux", icon: redux },
-  { name: "Tailwind CSS", icon: tailwind },
-  { name: "Node JS", icon: nodejs },
-  { name: "Express JS", icon: express },
-  { name: "Next.js", icon: nextjs },
+  { name: "HTML 5", icon: html, link: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+  { name: "CSS 3", icon: css, link: "https://developer.mozilla.org/en-US/docs/Web/CSS" },  
+  { name: "React JS", icon: reactjs, link: "https://react.dev/" },
+  { name: "Redux", icon: redux, link: "https://redux.js.org/" },
+  { name: "Tailwind CSS", icon: tailwind, link: "https://tailwindcss.com/" },
+  { name: "Node JS", icon: nodejs, link: "https://nodejs.org/" },
+  { name: "Express JS", icon: express, link: "https://expressjs.com/" },
+  { name: "Next.js", icon: nextjs, link: "https://nextjs.org/" },
 ];
 
 export const databaseSkills = [
-  { name: "MongoDB", icon: mongodb },
-  { name: "MySQL", icon: mysql },
+  { name: "MongoDB", icon: mongodb, link: "https://www.mongodb.com/" },
+  { name: "MySQL", icon: mysql, link: "https://www.mysql.com/" },
+  { name: "PostgreSQL", icon: postgresql, link: "https://www.postgresql.org/" },
 ];
 
 export const tools = [
-  { name: "Git", icon: git },
+  { name: "Git", icon: git, link: "https://git-scm.com/" },
 ];
 
 export const otherSkills = [

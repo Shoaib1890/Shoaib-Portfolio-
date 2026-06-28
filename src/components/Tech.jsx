@@ -20,13 +20,16 @@ const TechCategory = ({ title, items }) => (
 
     <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-5">
       {items.map((tech) => (
-        <div
+        <a
+          href={tech.link || "#"}
+          target="_blank"
+          rel="noopener noreferrer"
           key={tech.name}
           className="flex items-center justify-center aspect-square 
       bg-[#0f172a] rounded-lg border border-white 
       hover:border-green-400 hover:scale-110 
-      transition-transform duration-300 ease-in-out 
-      shadow-md hover:shadow-green-400/20 p-2"
+      transition-all duration-300 ease-in-out 
+      shadow-md hover:shadow-green-400/20 p-2 group relative cursor-pointer"
         >
           <div className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center overflow-hidden">
             <img
@@ -35,7 +38,15 @@ const TechCategory = ({ title, items }) => (
               className="w-full h-full object-contain"
             />
           </div>
-        </div>
+          
+          {/* Custom Tooltip */}
+          <div className="pointer-events-none absolute bottom-full mb-3 flex flex-col items-center opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300 z-20">
+            <span className="relative z-30 px-3 py-1.5 text-[11px] text-white bg-slate-900 border border-green-400 rounded-md shadow-xl font-medium tracking-wide whitespace-nowrap font-poppins">
+              {tech.name}
+            </span>
+            <div className="w-2 h-2 -mt-1 rotate-45 bg-slate-900 border-r border-b border-green-400"></div>
+          </div>
+        </a>
       ))}
     </div>
   </div>

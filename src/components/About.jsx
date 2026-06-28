@@ -125,11 +125,14 @@ const About = () => {
               <p>
                 <span className="text-green-400">📞 Phone:</span> +91 9948128788
               </p>
-              <p className="truncate">
+              <p className="whitespace-nowrap">
                 <span className="text-green-400">📧 Email:</span>{" "}
-                <span className="inline-block max-w-[220px] truncate align-middle">
+                <a
+                  href="mailto:shoaibmohammed1890@gmail.com"
+                  className="text-secondary hover:text-green-400 transition-colors"
+                >
                   shoaibmohammed1890@gmail.com
-                </span>
+                </a>
               </p>
 
               <p>

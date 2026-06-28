@@ -36,6 +36,7 @@ import threejs from "./tech/threejs.svg";
 import firstTestimonial from './Tars Ken.webp';
 import secondTestimonial from './image.webp';
 import thirdTestimonial from './third testimonial.webp';
+import postgresql from "./tech/postgresql.png";
 
 
 export {
@@ -75,4 +76,5 @@ export {
   redux,
   tailwind,
   threejs,
+  postgresql,
 };
