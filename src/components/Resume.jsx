@@ -85,7 +85,7 @@ const Resume = () => {
                     PLACEMENT HEAD - MECHANICAL Dept
                   </p>
                   <span className="inline-block bg-gray-700 text-sm mt-2 px-2 py-1">
-                    2025 - Present
+                    2025 - 2026
                   </span>
                   <p className="italic mt-3">
                     Placement Cell IIITDM Kancheepuram
@@ -156,62 +156,68 @@ const Resume = () => {
           <div>
             <h3 className="text-xl font-bold mb-3">Professional Experience</h3>
             <div className="space-y-8">
-              {/* SDE Intern at SwitchiT */}
+              {/* SwitchiT Network */}
               <div className="relative pl-6">
                 <span className="absolute left-0 top-1 w-3 h-3 bg-green-500 rounded-full z-10"></span>
                 <div className="absolute left-[5px] top-5 bottom-0 w-0.5 bg-gray-600"></div>
 
                 <div>
-                  <p className="text-green-400 font-semibold">
-                    SDE INTERN AT SwitchiT
+                  <p className="text-green-400 font-bold text-lg">
+                    SwitchiT Network
                   </p>
-                  <span className="inline-block bg-gray-700 text-sm mt-2 px-2 py-1">
-                    May 2025 - Present
-                  </span>
-                  <p className="italic mt-1">Bangalore, Karnataka, India</p>
+                  <p className="text-gray-400 text-xs mt-1">
+                    1 yr 3 mos · Bengaluru, Karnataka, India · Remote
+                  </p>
 
-                  <ul className="list-disc list-outside pl-5 text-sm mt-4 space-y-2">
-                    <li>
-                      <span className="block">
-                        Developed and maintained the company’s primary web
-                        application using React.js, TypeScript, Next.js, and
-                        Tailwind CSS, delivering responsive, scalable, and
-                        user-friendly experiences.
-                      </span>
-                    </li>
-                    <li>
-                      <span className="block">
-                        Built and enhanced a recruiter platform that enables
-                        recruiters to search, evaluate, and manage candidates
-                        efficiently through advanced filtering, onboarding
-                        workflows, and candidate management features.
-                      </span>
-                    </li>
-                    <li>
-                      <span className="block">
-                        Collaborated with backend engineers to integrate REST
-                        APIs, optimize data flow, and improve application
-                        performance across multiple products.
-                      </span>
-                    </li>
-                    <li>
-                      <span className="block">
-                        Upgraded an existing news microservice into an
-                        AI-focused content aggregation platform by replacing
-                        generic RSS sources with 30+ AI-specific feeds from
-                        OpenAI, NVIDIA, DeepMind, MIT, VentureBeat, and Hugging
-                        Face.
-                      </span>
-                    </li>
-                    <li>
-                      <span className="block">
-                        Designed and implemented a keyword-based relevance
-                        scoring and filtering system that automatically removed
-                        non-AI content before database ingestion, significantly
-                        improving the quality and relevance of curated news.
-                      </span>
-                    </li>
-                  </ul>
+                  <div className="mt-6 space-y-8 relative pl-6 border-l border-gray-600 ml-1.5">
+                    {/* Role 1 */}
+                    <div className="relative">
+                      {/* Nested dot */}
+                      <span className="absolute -left-[28px] top-1.5 w-2 h-2 bg-green-500 rounded-full z-10"></span>
+                      
+                      <p className="text-white font-semibold text-base">
+                        Software Development Engineer
+                      </p>
+                      <p className="text-gray-400 text-xs mt-0.5">
+                        Full-time · May 2026 - Present · 3 mos
+                      </p>
+                      <ul className="list-disc list-outside pl-4 text-sm mt-3 space-y-2 text-gray-300">
+                        <li>
+                          Leading the development of core platform features across recruiter and candidate applications using React, Next.js, TypeScript, Spring Boot, and PostgreSQL.
+                        </li>
+                        <li>
+                          Designed and optimized scalable backend APIs, database workflows, and AI-powered content processing pipelines to improve performance and reliability.
+                        </li>
+                        <li>
+                          Collaborated with cross functional teams to architect, build, and deploy production-ready features while driving technical improvements and code quality.
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* Role 2 */}
+                    <div className="relative">
+                      {/* Nested dot */}
+                      <span className="absolute -left-[28px] top-1.5 w-2 h-2 bg-green-500 rounded-full z-10"></span>
+
+                      <p className="text-white font-semibold text-base">
+                        Software Engineer Intern
+                      </p>
+                      <p className="text-gray-400 text-xs mt-0.5">
+                        Internship · May 2025 - Apr 2026 · 1 yr
+                      </p>
+                      <ul className="list-disc list-outside pl-4 text-sm mt-3 space-y-2 text-gray-300">
+                        <li>
+                          Developed and maintained responsive web applications using React, Next.js, TypeScript, and Tailwind CSS, delivering production-ready features.
+                        </li>
+                        <li>
+                          Built recruiter platform modules including candidate search, filtering, onboarding workflows, and integrated REST APIs with backend services.
+                        </li>
+                        <li>
+                          Enhanced the company's AI news platform by integrating 30+ AI-focused RSS feeds and implementing intelligent content filtering to improve news relevance.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
 
