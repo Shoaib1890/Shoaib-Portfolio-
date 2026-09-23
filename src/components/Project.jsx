@@ -26,6 +26,20 @@ const projects = [
     githubLink: "https://github.com/Shoaib1890/alpha-stock-whisperer-india.git",
   },
   {
+    title: "Trizen Gallery",
+    techStack: "NEXT.JS | FULL STACK | TYPESCRIPT",
+    imageUrl: "/Project_Images/TrizenGallery.png",
+    liveLink: "https://photobooth-kappa-inky.vercel.app/",
+    githubLink: "https://github.com/Shoaib1890/Trizen-Photobooth",
+  },
+  {
+    title: "Appointment Board",
+    techStack: "NEXT.JS | FULL STACK | TYPESCRIPT",
+    imageUrl: "/Project_Images/AppointmentBoard.png",
+    liveLink: "https://appointment-board-five.vercel.app/",
+    githubLink: "https://github.com/Shoaib1890/Appointment-Board",
+  },
+  {
     title: "Campus Resolution Portal",
     techStack: "MACHINE LEARNING",
     imageUrl: "/Project_Images/Campus_Portal.png",
