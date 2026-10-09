@@ -7,6 +7,7 @@ import {
   webDevSkills,
   databaseSkills,
   tools,
+  genAISkills,
   otherSkills,
 } from "../constants";
 
@@ -103,6 +104,7 @@ const Tech = () => {
         <TechCategory title="Web Development" items={webDevSkills} />
         <TechCategory title="Databases" items={databaseSkills} />
         <TechCategory title="Developer Tools" items={tools} />
+        <TechCategory title="Gen AI" items={genAISkills} />
         <OtherSkills title="Other Skills" items={otherSkills} />
       </div>
     </section>

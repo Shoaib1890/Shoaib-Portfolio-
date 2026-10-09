@@ -36,6 +36,10 @@ import {
   secondTestimonial,
   thirdTestimonial,
   postgresql,
+  groq,
+  openai,
+  openrouter,
+  chroma,
 } from "../assets";
 
 // Import Tekisky separately
@@ -171,7 +175,22 @@ export const tools = [
   { name: "Git", icon: git, link: "https://git-scm.com/" },
 ];
 
+export const genAISkills = [
+  { name: "Groq", icon: groq, link: "https://groq.com/" },
+  { name: "OpenAI", icon: openai, link: "https://openai.com/" },
+  { name: "OpenRouter", icon: openrouter, link: "https://openrouter.ai/" },
+  { name: "ChromaDB", icon: chroma, link: "https://www.trychroma.com/" },
+];
+
 export const otherSkills = [
+  "LLM Integration",
+  "Prompt Engineering",
+  "Embeddings",
+  "RAG",
+  "Semantic Search",
+  "Tool Calling",
+  "AI Agents",
+  "Vector Databases",
   "Responsive Web Design",
   "Data Structure and Algorithms",
   "Competitive Programming",

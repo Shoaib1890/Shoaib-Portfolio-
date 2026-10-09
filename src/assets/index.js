@@ -37,6 +37,10 @@ import firstTestimonial from './Tars Ken.webp';
 import secondTestimonial from './image.webp';
 import thirdTestimonial from './third testimonial.webp';
 import postgresql from "./tech/postgresql.png";
+import groq from "./tech/groq.svg";
+import openai from "./tech/openai.svg";
+import openrouter from "./tech/openrouter.svg";
+import chroma from "./tech/chroma.svg";
 
 
 export {
@@ -77,4 +81,8 @@ export {
   tailwind,
   threejs,
   postgresql,
+  groq,
+  openai,
+  openrouter,
+  chroma,
 };
